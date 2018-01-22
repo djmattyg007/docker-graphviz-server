@@ -1,7 +1,7 @@
-FROM alpine:3.6
+FROM alpine:3.7
 MAINTAINER djmattyg007
 
-ENV VERSION=2017.10.25-1
+ENV VERSION=2018.01.22-1
 
 RUN apk --update add graphviz ttf-dejavu && \
     rm -rf /var/cache/apk/*
